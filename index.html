@@ -12,13 +12,17 @@ return;
 </head>
 <body>
     <h1>Convert Closed Captions from ".srt" file to Transcripts</h1>
-    Use this cool new way of writing stuff<br/>
     <img src="https://cdn.theatlantic.com/thumbor/MaNsYmzJVx0vKaR_0TpWnJyT_WY=/0x104:2000x1229/720x405/media/img/2016/04/DIS_Moore_VSBEBeards_Web/original.jpg" height="300" width="600" /><br/>
-    Type the desired text into the field below and press "Do the job!"<br/>
-<form name="TextFields">
-<TEXTAREA type="text" cols="67" rows="10" name="Input" value="" ></TEXTAREA>
-<input type="button" value="Do the job!" onClick="TryClear();"></input>
-<TEXTAREA type="text" cols="67" rows="10" name="Output" value="" ></TEXTAREA>
+    Open the ".srt" file in Notepad, gedit or your favorite text editor and paste its contents into the field below. Then click on "Convert to a transcript" to watch the magic happen right before your eyes!<br>
+    <form name="TextFields">
+<TEXTAREA type="text" cols="120" rows="10" name="Input" value="" ></TEXTAREA>
+<br>
+<input type="button" value="Convert to a transcript" onClick="TryClear();"></input>
+<br>
+<TEXTAREA type="text" cols="120" rows="10" name="Output" value="" ></TEXTAREA>
 </form>
+    <p>Note that this convertor will not work if the subtitle file you have is not an srt file (examples include dxfp, ssa, ttml files). If your subtitle file is not srt, please use <a href="https://gotranscript.com/subtitle-converter">this link to convert the file into an srt file</a>.</p>
+    <p>This site was created by @ostrich893.</p>
+    <p>Please report any bugs/feedback to ksingh15@illinois.edu</p>
 </body>
 </html>
